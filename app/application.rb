@@ -8,9 +8,9 @@ class Application
     num_3 = Kernel.rand(1..20)
  
     if num_1==num_2 && num_2==num_3
-      resp.write "You Win"
+      resp.write "Good morning"
     else
-      resp.write "You Lose"
+      resp.write "Good afternoon"
     end
  
     resp.finish
